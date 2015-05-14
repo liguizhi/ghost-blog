@@ -11,14 +11,11 @@ config = {
     'production': {
         url: 'http://zhaoqi.tryingzone.com',
         database: {
-            client: 'mysql',
+            client: 'sqlite3',
             connection: {
-                host     : 'localhost',
-                user     : 'liguizhi',
-                password : 'tryingzone',
-                database : 'ghost_zhaoqi',
-                charset  : 'utf8',
-                _socket: '/var/run/mysqld/mysqld.sock',
+                filename: path.join(__dirname, '/content/data/zhaoqi-ghost.db')
+            },
+            debug: false
             }
         },
         server: {
