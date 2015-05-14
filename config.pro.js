@@ -13,7 +13,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
+                filename: path.join(__dirname, '/content/data/zhaoqi_ghost.db')
             },
             debug: false
         },
