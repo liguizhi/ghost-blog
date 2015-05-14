@@ -17,7 +17,8 @@ config = {
                 user     : 'liguizhi',
                 password : 'tryingzone',
                 database : 'ghost_zhaoqi',
-                charset  : 'utf8'
+                charset  : 'utf8',
+                _socket: '/var/run/mysqld/mysqld.sock',
             }
         },
         server: {
