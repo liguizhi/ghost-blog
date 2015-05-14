@@ -9,7 +9,7 @@ config = {
     // ### Testing MySQL
     // Used by Travis - Automated testing run through GitHub
     'production': {
-        url: 'http://blog.tryingzone.com',
+        url: 'http://zhaoqi.tryingzone.com',
         database: {
             client: 'mysql',
             connection: {
