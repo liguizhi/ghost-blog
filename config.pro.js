@@ -13,10 +13,9 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/zhaoqi-ghost.db')
+                filename: path.join(__dirname, '/content/data/ghost.db')
             },
             debug: false
-            }
         },
         server: {
             host: '127.0.0.1',
