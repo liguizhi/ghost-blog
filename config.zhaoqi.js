@@ -9,7 +9,7 @@ config = {
     // ### Testing MySQL
     // Used by Travis - Automated testing run through GitHub
     'production': {
-        url: 'http://zhaoqi.tryingzone.com',
+        url: 'http://www.zhaoqi.me',
         database: {
             client: 'sqlite3',
             connection: {
